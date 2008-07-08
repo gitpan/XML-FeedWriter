@@ -9,5 +9,6 @@ t/00_load.t
 t/20_basic.t
 t/99_pod.t
 t/99_podcoverage.t
-t/lib/XML/FeedWriter/Test/RSS20/Basic.pm
+t/lib/XML/FeedWriter/Test/RSS20/Channel.pm
+t/lib/XML/FeedWriter/Test/RSS20/Item.pm
 META.yml                                 Module meta-data (added by MakeMaker)

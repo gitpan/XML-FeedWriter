@@ -1,4 +1,7 @@
 Revision history for XML-FeedWriter
 
+0.02 2008/07/09
+  - oops, MANIFEST was stale
+
 0.01 2008/07/09
   - initial release with RSS 2.0 support only
