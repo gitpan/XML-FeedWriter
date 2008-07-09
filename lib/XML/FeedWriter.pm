@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Carp;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 my %supported = (
   'RSS20'   => 'RSS20',
@@ -81,7 +81,7 @@ XML::FeedWriter - simple RSS writer
 
     # or just use it as an xml string.
 
-    my $output = $writer->output;
+    my $string = $writer->as_string;
 
 =head1 DESCRIPTION
 

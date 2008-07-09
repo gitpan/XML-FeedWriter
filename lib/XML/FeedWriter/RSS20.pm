@@ -194,7 +194,7 @@ XML::FeedWriter::RSS20
 
     # or just use it as an xml string.
 
-    my $output = $writer->output;
+    my $string = $writer->as_string;
 
 =head1 DESCRIPTION
 
