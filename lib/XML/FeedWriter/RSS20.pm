@@ -198,14 +198,20 @@ XML::FeedWriter::RSS20
 
 =head1 DESCRIPTION
 
-This is an RSS 2.0 feed writer. You usually don't need to use this directly, but if you insist, replace XML::FeedWriter with XML::FeedWriter::RSS20 and it works fine. See L<XML::FeedWriter> for basic usage.
+This is an RSS 2.0 feed writer. You usually don't need to use this directly, but if you insist, replace XML::FeedWriter with XML::FeedWriter::RSS20 and it works fine.
 
 =head1 METHODS
 
+See L<XML::FeedWriter> for usage.
+
 =head2 new
+
 =head2 add_items
+
 =head2 close
+
 =head2 save
+
 =head2 as_string
 
 =head1 SEE ALSO

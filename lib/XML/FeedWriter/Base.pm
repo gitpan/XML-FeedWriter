@@ -220,10 +220,16 @@ This class is a base class for more specific feed writers. See appropriate pods 
 
 =head1 METHODS
 
+See L<XML::FeedWriter> for usage.
+
 =head2 new
+
 =head2 add_items
+
 =head2 close
+
 =head2 save
+
 =head2 as_string
 
 =head1 SEE ALSO

@@ -1,5 +1,8 @@
 Revision history for XML-FeedWriter
 
+0.04 2008/08/06
+  - no code changes: fixed pod glitches
+
 0.04 2008/07/10
   - the test was still broken: dynamic use should be stringified
 
