@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                XML-FeedWriter
-version:             0.05
+version:             0.06
 abstract:            simple RSS writer
 license:             perl
 author:              
@@ -13,7 +13,7 @@ requires:
     DateTime:                      0
     DateTimeX::Web:                0.03
     Encode:                        0
-    Test::Classy:                  0.02
+    Test::Classy:                  0.03
     Test::More:                    0.47
     Test::UseAllModules:           0.09
     XML::Writer:                   0

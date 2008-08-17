@@ -1,6 +1,9 @@
 Revision history for XML-FeedWriter
 
-0.04 2008/08/06
+0.06 2008/08/17
+  - sorry the test was still broken...
+
+0.05 2008/08/06
   - no code changes: fixed pod glitches
 
 0.04 2008/07/10

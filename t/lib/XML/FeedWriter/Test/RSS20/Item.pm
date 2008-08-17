@@ -37,8 +37,9 @@ sub _test {
 sub initialize {
   my $class = shift;
 
-  eval qq{ use XML::Simple '2.17' };
-  $class->skip_the_rest('requires XML::Simple') if $@;
+  eval { require XML::Simple };
+  return $class->skip_this_class('requires XML::Simple 2.17')
+    if $@ or $XML::Simple::VERSION lt "2.17";
 
   $class->xs( XML::Simple->new( ForceArray => 0, KeepRoot => 1 ) );
 }
